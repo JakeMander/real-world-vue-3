@@ -1,7 +1,7 @@
 <template>
   <h1>Jakes Do Good Stuff Site</h1>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Events</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
