@@ -1,10 +1,12 @@
 <template>
-  <h1>Jakes Do Good Stuff Site</h1>
-  <div id="nav">
-    <router-link to="/">Events</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="container">
+    <h1>Jakes Do Good Stuff Site</h1>
+    <div id="nav">
+      <router-link :to="{ name: 'EventList'} ">Events</router-link> |
+      <router-link :to="{ name: 'About' }">About</router-link>
+    </div>
+    <router-view/>
   </div>
-  <router-view />
 </template>
 
 <style>
